@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fe11edd-1655-416e-a51b-5709d918c979" name="Default Changelist" comment="" />
+    <list default="true" id="7fe11edd-1655-416e-a51b-5709d918c979" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SampleFactory02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/Top-Level Package.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/out/production/sampleFactory01/Chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/out/production/sampleFactory01/ChartFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/out/production/sampleFactory01/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/out/production/sampleFactory01/HistogramChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/out/production/sampleFactory01/LineChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/out/production/sampleFactory01/PieChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/sampleFactory01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/src/Chart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/src/ChartFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/src/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/src/HistogramChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/src/LineChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sampleFactory/src/PieChart.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +30,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -23,14 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HistogramChart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="176">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -38,13 +52,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LineChart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="110">
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#81#82#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,12 +65,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PieChart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="44">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="e#62#63#0" expanded="true" />
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#81#82#0" expanded="true" />
                 <element signature="e#106#107#0" expanded="true" />
               </folding>
             </state>
@@ -78,94 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="0.0" y="101.0">HistogramChart</node>
-                <node x="231.45555555555552" y="202.0">ChartFactory</node>
-                <node x="344.0" y="101.0">PieChart</node>
-                <node x="305.8305555555555" y="303.0">Client</node>
-                <node x="327.8777777777778" y="0.0">Chart</node>
-                <node x="172.0" y="101.0">LineChart</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="ChartFactory" target="LineChart">
-                  <point x="-26.25" y="-25.5" />
-                  <point x="310.2055555555555" y="172.0" />
-                  <point x="248.0" y="172.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="ChartFactory" target="HistogramChart">
-                  <point x="-78.75" y="-25.5" />
-                  <point x="257.7055555555555" y="182.0" />
-                  <point x="76.0" y="182.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="Client" target="ChartFactory">
-                  <point x="-46.25" y="-25.5" />
-                  <point x="352.0805555555555" y="278.0" />
-                  <point x="336.4555555555555" y="278.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="ChartFactory" target="PieChart">
-                  <point x="26.25" y="-25.5" />
-                  <point x="362.7055555555555" y="172.0" />
-                  <point x="420.0" y="172.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="LineChart" target="Chart">
-                  <point x="0.0" y="-25.5" />
-                  <point x="248.0" y="81.0" />
-                  <point x="373.4777777777778" y="81.0" />
-                  <point x="-30.399999999999977" y="25.5" />
-                </edge>
-                <edge source="Client" target="Chart">
-                  <point x="46.25" y="-25.5" />
-                  <point x="444.5805555555555" y="278.0" />
-                  <point x="526.2333333333333" y="278.0" />
-                  <point x="526.2333333333333" y="71.0" />
-                  <point x="464.6777777777778" y="71.0" />
-                  <point x="60.800000000000004" y="25.5" />
-                </edge>
-                <edge source="ChartFactory" target="Chart">
-                  <point x="78.75" y="-25.5" />
-                  <point x="415.2055555555555" y="182.0" />
-                  <point x="506.5" y="182.0" />
-                  <point x="506.5" y="81.0" />
-                  <point x="434.2777777777778" y="81.0" />
-                  <point x="30.400000000000034" y="25.5" />
-                </edge>
-                <edge source="HistogramChart" target="Chart">
-                  <point x="0.0" y="-25.5" />
-                  <point x="76.0" y="71.0" />
-                  <point x="343.0777777777778" y="71.0" />
-                  <point x="-60.80000000000001" y="25.5" />
-                </edge>
-                <edge source="PieChart" target="Chart">
-                  <point x="0.0" y="-25.5" />
-                  <point x="420.0" y="81.0" />
-                  <point x="403.8777777777778" y="81.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.1902821316614416" x="360.0383829237893" y="169.28863260290638" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Properties</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -179,6 +102,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -198,29 +124,25 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sampleFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sampleFactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sampleFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sampleFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simpleFactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +170,7 @@
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="sampleFactory01" />
+      <module name="simpleFactory01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,102 +191,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556526677567</updated>
-      <workItem from="1556526680884" duration="1236000" />
+      <workItem from="1556526680884" duration="2006000" />
+      <workItem from="1556534445263" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1236000" />
+    <option name="totallyTimeSpent" value="2018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Alipay DevTools" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Alipay DevTools" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HistogramChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LineChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChartFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PieChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/ChartFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -375,13 +244,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="25.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="26.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
             <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -398,7 +267,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="14.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="15.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -430,11 +299,12 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="703.5" y="284.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="704.0" y="284.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -455,13 +325,6 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -539,14 +402,64 @@
               <point x="0.0" y="25.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.1902821316614416" x="360.0383829237893" y="169.28863260290638" />
+          <settings layout="Hierarchic Group" zoom="1.1902821316614416" x="360.0" y="297.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Properties</Category>
             <Category>Methods</Category>
+            <Category>Properties</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HistogramChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LineChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PieChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChartFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
