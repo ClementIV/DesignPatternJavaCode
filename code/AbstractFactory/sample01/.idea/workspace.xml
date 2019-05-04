@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a338ec44-8a06-4fb7-8ead-984d44e7d03f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComboBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkinFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringComboBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringSkinFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringTextFeild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummerButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummerComboBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummerSkinFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummerTextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XMLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../factoryMethod/sample02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../factoryMethod/sample02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../markdown/工厂方法模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../markdown/工厂方法模式.md" afterDir="false" />
-    </list>
+    <list default="true" id="a338ec44-8a06-4fb7-8ead-984d44e7d03f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SummerTextField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ComboBox.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,6 +89,227 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="163.52846790890248" y="386.0">SpringSkinFactory</node>
+                <node x="938.8095238095236" y="386.0">SummerSkinFactory</node>
+                <node x="993.5" y="213.0">SummerButton</node>
+                <node x="10.5" y="213.0">SpringTextFeild</node>
+                <node x="1166.5" y="213.0">SummerComboBox</node>
+                <node x="881.5" y="0.0">Button</node>
+                <node x="500.0" y="0.0">TextField</node>
+                <node x="1348.099896480331" y="408.0">Client</node>
+                <node x="717.5" y="191.0">SkinFactory</node>
+                <node x="1160.8333333333333" y="0.0">ComboBox</node>
+                <node x="182.5" y="213.0">SpringButton</node>
+                <node x="542.5" y="213.0">SummerTextField</node>
+                <node x="1415.9270186335402" y="213.0">XMLUtil</node>
+                <node x="366.5" y="213.0">SpringComboBox</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="SpringTextFeild" target="TextField">
+                  <point x="0.0" y="-25.5" />
+                  <point x="86.5" y="101.0" />
+                  <point x="538.0" y="101.0" />
+                  <point x="-38.0" y="25.5" />
+                </edge>
+                <edge source="SpringComboBox" target="ComboBox">
+                  <point x="0.0" y="-25.5" />
+                  <point x="444.0" y="161.0" />
+                  <point x="1198.8333333333333" y="161.0" />
+                  <point x="-38.0" y="25.5" />
+                </edge>
+                <edge source="SummerSkinFactory" target="SkinFactory">
+                  <point x="-36.57142857142867" y="-47.5" />
+                  <point x="1030.238095238095" y="336.0" />
+                  <point x="845.5" y="336.0" />
+                  <point x="0.0" y="47.5" />
+                </edge>
+                <edge source="SummerSkinFactory" target="ComboBox">
+                  <point x="109.71428571428578" y="-47.5" />
+                  <point x="1176.5238095238094" y="366.0" />
+                  <point x="1343.0" y="366.0" />
+                  <point x="1343.0" y="171.0" />
+                  <point x="1274.8333333333333" y="171.0" />
+                  <point x="38.0" y="25.5" />
+                </edge>
+                <edge source="Client" target="Button">
+                  <point x="0.0" y="-25.5" />
+                  <point x="1440.599896480331" y="306.0" />
+                  <point x="1405.4270186335402" y="306.0" />
+                  <point x="1405.4270186335402" y="81.0" />
+                  <point x="1020.8333333333333" y="81.0" />
+                  <point x="63.33333333333326" y="25.5" />
+                </edge>
+                <edge source="SpringSkinFactory" target="SpringTextFeild">
+                  <point x="-73.14285714285722" y="-47.5" />
+                  <point x="218.38561076604526" y="356.0" />
+                  <point x="86.5" y="356.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="SpringSkinFactory" target="Button">
+                  <point x="0.0" y="-47.5" />
+                  <point x="291.5284679089025" y="356.0" />
+                  <point x="345.0" y="356.0" />
+                  <point x="345.0" y="131.0" />
+                  <point x="919.5" y="131.0" />
+                  <point x="-38.0" y="25.5" />
+                </edge>
+                <edge source="SkinFactory" target="ComboBox">
+                  <point x="85.33333333333337" y="-47.5" />
+                  <point x="930.8333333333334" y="171.0" />
+                  <point x="1224.1666666666665" y="171.0" />
+                  <point x="-12.666666666666686" y="25.5" />
+                </edge>
+                <edge source="SkinFactory" target="Button">
+                  <point x="0.0" y="-47.5" />
+                  <point x="845.5" y="141.0" />
+                  <point x="944.8333333333333" y="141.0" />
+                  <point x="-12.666666666666742" y="25.5" />
+                </edge>
+                <edge source="SpringSkinFactory" target="TextField">
+                  <point x="-109.71428571428578" y="-47.5" />
+                  <point x="181.8141821946167" y="366.0" />
+                  <point x="0.0" y="366.0" />
+                  <point x="0.0" y="91.0" />
+                  <point x="512.6666666666667" y="91.0" />
+                  <point x="-63.33333333333326" y="25.5" />
+                </edge>
+                <edge source="Client" target="TextField">
+                  <point x="-37.0" y="-25.5" />
+                  <point x="1403.599896480331" y="316.0" />
+                  <point x="1354.0" y="316.0" />
+                  <point x="1354.0" y="91.0" />
+                  <point x="639.3333333333333" y="91.0" />
+                  <point x="63.33333333333326" y="25.5" />
+                </edge>
+                <edge source="SkinFactory" target="TextField">
+                  <point x="-85.33333333333326" y="-47.5" />
+                  <point x="760.1666666666667" y="101.0" />
+                  <point x="614.0" y="101.0" />
+                  <point x="38.0" y="25.5" />
+                </edge>
+                <edge source="SpringSkinFactory" target="SkinFactory">
+                  <point x="109.71428571428578" y="-47.5" />
+                  <point x="401.24275362318826" y="366.0" />
+                  <point x="760.1666666666666" y="366.0" />
+                  <point x="-85.33333333333337" y="47.5" />
+                </edge>
+                <edge source="SummerSkinFactory" target="SummerButton">
+                  <point x="0.0" y="-47.5" />
+                  <point x="1066.8095238095236" y="366.0" />
+                  <point x="1069.5" y="366.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="SpringSkinFactory" target="ComboBox">
+                  <point x="36.571428571428555" y="-47.5" />
+                  <point x="328.09989648033104" y="366.0" />
+                  <point x="356.0" y="366.0" />
+                  <point x="356.0" y="151.0" />
+                  <point x="1173.5" y="151.0" />
+                  <point x="-63.333333333333314" y="25.5" />
+                </edge>
+                <edge source="SpringSkinFactory" target="SpringButton">
+                  <point x="-36.57142857142867" y="-47.5" />
+                  <point x="254.95703933747382" y="366.0" />
+                  <point x="258.5" y="366.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="SummerButton" target="Button">
+                  <point x="0.0" y="-25.5" />
+                  <point x="1069.5" y="141.0" />
+                  <point x="970.1666666666667" y="141.0" />
+                  <point x="12.666666666666742" y="25.5" />
+                </edge>
+                <edge source="Client" target="XMLUtil">
+                  <point x="37.0" y="-25.5" />
+                  <point x="1477.599896480331" y="366.0" />
+                  <point x="1503.9270186335402" y="366.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="Client" target="ComboBox">
+                  <point x="74.0" y="-25.5" />
+                  <point x="1514.599896480331" y="366.0" />
+                  <point x="1602.4270186335402" y="366.0" />
+                  <point x="1602.4270186335402" y="71.0" />
+                  <point x="1300.1666666666665" y="71.0" />
+                  <point x="63.333333333333314" y="25.5" />
+                </edge>
+                <edge source="SummerSkinFactory" target="SummerTextField">
+                  <point x="-73.14285714285711" y="-47.5" />
+                  <point x="993.6666666666665" y="346.0" />
+                  <point x="620.0" y="346.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="Client" target="SkinFactory">
+                  <point x="-74.0" y="-25.5" />
+                  <point x="1366.599896480331" y="326.0" />
+                  <point x="930.8333333333333" y="326.0" />
+                  <point x="85.33333333333326" y="47.5" />
+                </edge>
+                <edge source="SummerComboBox" target="ComboBox">
+                  <point x="-5.6843418860808015E-14" y="-25.5" />
+                  <point x="12.666666666666629" y="25.5" />
+                </edge>
+                <edge source="SummerSkinFactory" target="Button">
+                  <point x="36.57142857142844" y="-47.5" />
+                  <point x="1103.380952380952" y="346.0" />
+                  <point x="1156.0" y="346.0" />
+                  <point x="1156.0" y="131.0" />
+                  <point x="995.5" y="131.0" />
+                  <point x="38.0" y="25.5" />
+                </edge>
+                <edge source="SummerSkinFactory" target="SummerComboBox">
+                  <point x="73.14285714285711" y="-47.5" />
+                  <point x="1139.9523809523807" y="356.0" />
+                  <point x="1249.5" y="356.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="SpringSkinFactory" target="SpringComboBox">
+                  <point x="73.14285714285711" y="-47.5" />
+                  <point x="364.6713250517596" y="356.0" />
+                  <point x="444.0" y="356.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="SpringButton" target="Button">
+                  <point x="0.0" y="-25.5" />
+                  <point x="258.5" y="121.0" />
+                  <point x="894.1666666666666" y="121.0" />
+                  <point x="-63.33333333333337" y="25.5" />
+                </edge>
+                <edge source="SummerTextField" target="TextField">
+                  <point x="0.0" y="-25.5" />
+                  <point x="620.0" y="111.0" />
+                  <point x="588.6666666666667" y="111.0" />
+                  <point x="12.666666666666742" y="25.5" />
+                </edge>
+                <edge source="SummerSkinFactory" target="TextField">
+                  <point x="-109.71428571428578" y="-47.5" />
+                  <point x="957.0952380952378" y="356.0" />
+                  <point x="532.0" y="356.0" />
+                  <point x="532.0" y="111.0" />
+                  <point x="563.3333333333333" y="111.0" />
+                  <point x="-12.666666666666742" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6064676616915428" x="703.1004616855271" y="277.96318368582155" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XMLUtil.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,7 +322,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -221,6 +410,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -263,12 +453,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556958163527</updated>
-      <workItem from="1556958166693" duration="2592000" />
+      <workItem from="1556958166693" duration="3397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2592000" />
+    <option name="totallyTimeSpent" value="3397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -284,11 +474,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,21 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SummerSkinFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -458,6 +633,240 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SummerSkinFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="163.52846790890248" y="386.0">SpringSkinFactory</node>
+            <node x="938.8095238095236" y="386.0">SummerSkinFactory</node>
+            <node x="993.5" y="213.0">SummerButton</node>
+            <node x="10.5" y="213.0">SpringTextFeild</node>
+            <node x="1166.5" y="213.0">SummerComboBox</node>
+            <node x="881.5" y="0.0">Button</node>
+            <node x="500.0" y="0.0">TextField</node>
+            <node x="1348.099896480331" y="408.0">Client</node>
+            <node x="717.5" y="191.0">SkinFactory</node>
+            <node x="1160.8333333333333" y="0.0">ComboBox</node>
+            <node x="182.5" y="213.0">SpringButton</node>
+            <node x="542.5" y="213.0">SummerTextField</node>
+            <node x="1415.9270186335402" y="213.0">XMLUtil</node>
+            <node x="366.5" y="213.0">SpringComboBox</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="SpringTextFeild" target="TextField">
+              <point x="0.0" y="-25.5" />
+              <point x="86.5" y="101.0" />
+              <point x="538.0" y="101.0" />
+              <point x="-38.0" y="25.5" />
+            </edge>
+            <edge source="SpringComboBox" target="ComboBox">
+              <point x="0.0" y="-25.5" />
+              <point x="444.0" y="161.0" />
+              <point x="1198.8333333333333" y="161.0" />
+              <point x="-38.0" y="25.5" />
+            </edge>
+            <edge source="SummerSkinFactory" target="SkinFactory">
+              <point x="-36.57142857142867" y="-47.5" />
+              <point x="1030.238095238095" y="336.0" />
+              <point x="845.5" y="336.0" />
+              <point x="0.0" y="47.5" />
+            </edge>
+            <edge source="SummerSkinFactory" target="ComboBox">
+              <point x="109.71428571428578" y="-47.5" />
+              <point x="1176.5238095238094" y="366.0" />
+              <point x="1343.0" y="366.0" />
+              <point x="1343.0" y="171.0" />
+              <point x="1274.8333333333333" y="171.0" />
+              <point x="38.0" y="25.5" />
+            </edge>
+            <edge source="Client" target="Button">
+              <point x="0.0" y="-25.5" />
+              <point x="1440.599896480331" y="306.0" />
+              <point x="1405.4270186335402" y="306.0" />
+              <point x="1405.4270186335402" y="81.0" />
+              <point x="1020.8333333333333" y="81.0" />
+              <point x="63.33333333333326" y="25.5" />
+            </edge>
+            <edge source="SpringSkinFactory" target="SpringTextFeild">
+              <point x="-73.14285714285722" y="-47.5" />
+              <point x="218.38561076604526" y="356.0" />
+              <point x="86.5" y="356.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="SpringSkinFactory" target="Button">
+              <point x="0.0" y="-47.5" />
+              <point x="291.5284679089025" y="356.0" />
+              <point x="345.0" y="356.0" />
+              <point x="345.0" y="131.0" />
+              <point x="919.5" y="131.0" />
+              <point x="-38.0" y="25.5" />
+            </edge>
+            <edge source="SkinFactory" target="ComboBox">
+              <point x="85.33333333333337" y="-47.5" />
+              <point x="930.8333333333334" y="171.0" />
+              <point x="1224.1666666666665" y="171.0" />
+              <point x="-12.666666666666686" y="25.5" />
+            </edge>
+            <edge source="SkinFactory" target="Button">
+              <point x="0.0" y="-47.5" />
+              <point x="845.5" y="141.0" />
+              <point x="944.8333333333333" y="141.0" />
+              <point x="-12.666666666666742" y="25.5" />
+            </edge>
+            <edge source="SpringSkinFactory" target="TextField">
+              <point x="-109.71428571428578" y="-47.5" />
+              <point x="181.8141821946167" y="366.0" />
+              <point x="0.0" y="366.0" />
+              <point x="0.0" y="91.0" />
+              <point x="512.6666666666667" y="91.0" />
+              <point x="-63.33333333333326" y="25.5" />
+            </edge>
+            <edge source="Client" target="TextField">
+              <point x="-37.0" y="-25.5" />
+              <point x="1403.599896480331" y="316.0" />
+              <point x="1354.0" y="316.0" />
+              <point x="1354.0" y="91.0" />
+              <point x="639.3333333333333" y="91.0" />
+              <point x="63.33333333333326" y="25.5" />
+            </edge>
+            <edge source="SkinFactory" target="TextField">
+              <point x="-85.33333333333326" y="-47.5" />
+              <point x="760.1666666666667" y="101.0" />
+              <point x="614.0" y="101.0" />
+              <point x="38.0" y="25.5" />
+            </edge>
+            <edge source="SpringSkinFactory" target="SkinFactory">
+              <point x="109.71428571428578" y="-47.5" />
+              <point x="401.24275362318826" y="366.0" />
+              <point x="760.1666666666666" y="366.0" />
+              <point x="-85.33333333333337" y="47.5" />
+            </edge>
+            <edge source="SummerSkinFactory" target="SummerButton">
+              <point x="0.0" y="-47.5" />
+              <point x="1066.8095238095236" y="366.0" />
+              <point x="1069.5" y="366.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="SpringSkinFactory" target="ComboBox">
+              <point x="36.571428571428555" y="-47.5" />
+              <point x="328.09989648033104" y="366.0" />
+              <point x="356.0" y="366.0" />
+              <point x="356.0" y="151.0" />
+              <point x="1173.5" y="151.0" />
+              <point x="-63.333333333333314" y="25.5" />
+            </edge>
+            <edge source="SpringSkinFactory" target="SpringButton">
+              <point x="-36.57142857142867" y="-47.5" />
+              <point x="254.95703933747382" y="366.0" />
+              <point x="258.5" y="366.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="SummerButton" target="Button">
+              <point x="0.0" y="-25.5" />
+              <point x="1069.5" y="141.0" />
+              <point x="970.1666666666667" y="141.0" />
+              <point x="12.666666666666742" y="25.5" />
+            </edge>
+            <edge source="Client" target="XMLUtil">
+              <point x="37.0" y="-25.5" />
+              <point x="1477.599896480331" y="366.0" />
+              <point x="1503.9270186335402" y="366.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Client" target="ComboBox">
+              <point x="74.0" y="-25.5" />
+              <point x="1514.599896480331" y="366.0" />
+              <point x="1602.4270186335402" y="366.0" />
+              <point x="1602.4270186335402" y="71.0" />
+              <point x="1300.1666666666665" y="71.0" />
+              <point x="63.333333333333314" y="25.5" />
+            </edge>
+            <edge source="SummerSkinFactory" target="SummerTextField">
+              <point x="-73.14285714285711" y="-47.5" />
+              <point x="993.6666666666665" y="346.0" />
+              <point x="620.0" y="346.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Client" target="SkinFactory">
+              <point x="-74.0" y="-25.5" />
+              <point x="1366.599896480331" y="326.0" />
+              <point x="930.8333333333333" y="326.0" />
+              <point x="85.33333333333326" y="47.5" />
+            </edge>
+            <edge source="SummerComboBox" target="ComboBox">
+              <point x="-5.6843418860808015E-14" y="-25.5" />
+              <point x="12.666666666666629" y="25.5" />
+            </edge>
+            <edge source="SummerSkinFactory" target="Button">
+              <point x="36.57142857142844" y="-47.5" />
+              <point x="1103.380952380952" y="346.0" />
+              <point x="1156.0" y="346.0" />
+              <point x="1156.0" y="131.0" />
+              <point x="995.5" y="131.0" />
+              <point x="38.0" y="25.5" />
+            </edge>
+            <edge source="SummerSkinFactory" target="SummerComboBox">
+              <point x="73.14285714285711" y="-47.5" />
+              <point x="1139.9523809523807" y="356.0" />
+              <point x="1249.5" y="356.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="SpringSkinFactory" target="SpringComboBox">
+              <point x="73.14285714285711" y="-47.5" />
+              <point x="364.6713250517596" y="356.0" />
+              <point x="444.0" y="356.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="SpringButton" target="Button">
+              <point x="0.0" y="-25.5" />
+              <point x="258.5" y="121.0" />
+              <point x="894.1666666666666" y="121.0" />
+              <point x="-63.33333333333337" y="25.5" />
+            </edge>
+            <edge source="SummerTextField" target="TextField">
+              <point x="0.0" y="-25.5" />
+              <point x="620.0" y="111.0" />
+              <point x="588.6666666666667" y="111.0" />
+              <point x="12.666666666666742" y="25.5" />
+            </edge>
+            <edge source="SummerSkinFactory" target="TextField">
+              <point x="-109.71428571428578" y="-47.5" />
+              <point x="957.0952380952378" y="356.0" />
+              <point x="532.0" y="356.0" />
+              <point x="532.0" y="111.0" />
+              <point x="563.3333333333333" y="111.0" />
+              <point x="-12.666666666666742" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6064676616915428" x="703.1004616855271" y="277.96318368582155" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
